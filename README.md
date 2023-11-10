@@ -68,7 +68,7 @@ They can decide how long they would delay to respond to a proposal.
 **Learner**
 
 ```shell
-javac Learner
+java Learner
 ```
 
 
@@ -78,7 +78,7 @@ javac Learner
 M1 always responds to proposals instantly
 
 ```shell
-javac M1Server
+java M1Server
 ```
 
 
@@ -88,13 +88,13 @@ javac M1Server
 Without arguments: allows M2 to respond to a proposal with no delay
 
 ```
-javac M2Server
+java M2Server
 ```
 
 With an argument: allow M2 to repond to a proposal with a large delay 8s.
 
 ```shell
-javac M2Server delay
+java M2Server delay
 ```
 
 
@@ -104,13 +104,13 @@ javac M2Server delay
 Without arguments: allows M3 to respond to a proposal with no delay
 
 ```java
-javac M3Server
+java M3Server
 ```
 
 With an argument: allow M3 to repond to a proposal with a small delay 8s.
 
 ```shell
-javac M3Server delay
+java M3Server delay
 ```
 
 
@@ -124,13 +124,13 @@ They have similar structure, I will only show how to start M4, and you can repla
 Without arguments: allows M4 to respond to a proposal with no delay
 
 ```
-javac M4Server
+java M4Server
 ```
 
 With an arguments: allows M4 to respond to a proposal with a delay of 4000ms, and you can also replace this value with any other values you wish M4 to delay.
 
 ```shell
-javac M4Server 40000
+java M4Server 40000
 ```
 
 
